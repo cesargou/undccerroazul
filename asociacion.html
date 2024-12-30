@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociación Mundial de Faros</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-color: #005f73;
+        }
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0327359c;
+            padding: 12px 0;
+        }
+        .navbar img {
+            height: 50px;
+            margin-left: 20px;
+            margin-bottom: 15px;
+            background-color: #ffffff1c;
+        }
+        .navbar-links {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 22px;
+            margin-right: 18px;
+            position: relative;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #0a9396;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: white;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 8px 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #005f73;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .header {
+            background: url('images/faro_header.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h2, .container h3 {
+            color: #005f73;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .section p, .section li {
+            color: #005f73;
+            margin-bottom: 20px;
+        }
+        .definitions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .definition {
+            flex: 1 1 30%;
+            margin: 10px;
+            padding: 20px;
+            background: #0a9396;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="images/undc.png" alt="Logo">
+        <div class="navbar-links">
+            <a href="index.html">Inicio</a>
+            <div class="dropdown">
+                <a href="infof.html" class="dropbtn">Información</a>
+                <div class="dropdown-content">
+                    <a href="comparacion.html">Comparación</a>
+                    <a href="vientos.html">Tipos de Viento</a>
+                    <a href="instituciones.html">Instituciones</a>
+                    <a href="parcelas.html">Parcelas</a>
+                    <a href="invactividadesf.html">Inventario de Actividades Festivas</a>
+                    <a href="requi.html">Requisitos para crear Personería Jurídica</a>
+                    <a href="ligas.html">Ligas Deportivas</a>
+                    <a href="geogra.html">Geografía Económica</a>
+                    <a href="inventario.html">Inventario de Colegios y Distritos Alrededores</a>
+                    <a href="litoral.html">Litoral Peruano</a>
+                    <a href="tejidos.html">Tejidos Tradicionales y Artesanía</a>
+                    <a href="patente.html">Patente del Logo</a>
+                    <a href="transporte.html">Inventariado del Transporte</a>
+                    <a href="competen.html">Competencia Barcos de Vela</a>
+                    <a href="senalizacion.html">Señalización de Peligro</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="farinter.html" class="dropbtn">Faro</a>
+                <div class="dropdown-content">
+                    <a href="faros.html">Modelos</a>
+                    <a href="serviciosb.html">Servicios Básicos</a>
+                    <a href="asociacion.html">Asociación Mundial</a>
+                    <a href="museos.html">Modelos de Museo</a>
+                    <a href="propuestas.html">Propuestas para mejorar la subida</a>
+                    <a href="origenes.html">Orígen y tipos de faro en norteamérica</a>
+                </div>
+            </div>
+            <a href="autores.html">Autores</a>
+        </div>
+    </div>
+
+<div class="header">
+        <h1>Asociación Mundial de Faros</h1>
+    </div>
+    <div class="container">
+        <div class="section">
+            <h2>Organizaciones de Faros</h2>
+            <p>Las organizaciones de faros desempeñan un papel crucial en la seguridad marítima a nivel global. Estas entidades son responsables de la construcción, mantenimiento y gestión de los sistemas de señales luminosas que guían a los navegantes y protegen a las embarcaciones de peligros en el mar. Aquí hay algunas de las principales organizaciones:</p>
+            
+            <div class="section">
+                <h3>1. Organización Marítima Internacional (OMI)</h3>
+                <p><strong>Descripción:</strong> La OMI es una agencia de la ONU que establece normas y regulaciones internacionales para garantizar la seguridad de la navegación marítima, el medio ambiente y las operaciones en los océanos. A través de convenios como el Convenio SOLAS (Seguridad de la Vida Humana en el Mar), la OMI establece directrices sobre la instalación y mantenimiento de las ayudas a la navegación, incluidos los faros.</p>
+                <p><strong>Función:</strong> La OMI coordina a los gobiernos y organismos internacionales para mantener la seguridad marítima global, promoviendo el uso de señales de navegación coherentes, lo que incluye los sistemas de faros, boyas, señales acústicas y radar.</p>
+            </div>
+
+            <div class="section">
+                <h3>2. International Association of Lighthouse Authorities (IALA)</h3>
+                <p><strong>Descripción:</strong> La IALA es una organización internacional que agrupa a las autoridades y organismos encargados de la gestión de las ayudas a la navegación, incluyendo faros y boyas. Fundada en 1957, tiene como misión promover la seguridad de la navegación a través de un sistema uniforme y eficiente de señales.</p>
+                <p><strong>Función:</strong> La IALA desarrolla estándares y normas internacionales para los sistemas de señalización marítima y proporciona directrices para la construcción, mantenimiento y operación de faros en todo el mundo.</p>
+            </div>
+
+            <div class="section">
+                <h3>3. Servicios Nacionales de Faros</h3>
+                <p>Cada país tiene una autoridad o agencia gubernamental encargada de la construcción, mantenimiento y operación de los faros en sus aguas territoriales. Algunas de estas organizaciones son:</p>
+                <ul>
+                    <li><strong>United States Coast Guard (USCG) (Estados Unidos):</strong> Se encarga de los faros en las costas de EE.UU.</li>
+                    <li><strong>Trinity House (Reino Unido):</strong> Responsable de los faros en Inglaterra, Gales y las Islas del Canal.</li>
+                    <li><strong>Canadian Coast Guard (Canadá):</strong> Administra los faros en las aguas canadienses.</li>
+                    <li><strong>Servicio de Señalización Marítima de la Armada de Chile:</strong> Se ocupa de los faros en Chile.</li>
+                </ul>
+            </div>
+        </div>
+    <div class="container">
+    <div class="section">
+        <h2>La Magia de los Faros Holandeses</h2>
+        <div class="section">
+            <h3>Faro de Texel</h3>
+            <p><strong>Nombre:</strong> Vuurtoren Fierland</p>
+            <p><strong>Ubicación:</strong> Punta más septentrional de la isla de Texel, Países Bajos.</p>
+            <p><strong>Historia:</strong> Construido en 1863, diseñado por Quirinus Harder. Recibe su nombre de la antigua isla de Fierland.</p>
+            <p><strong>Altura total:</strong> 53 metros</p>
+            <p><strong>Altura de la luz:</strong> 47 metros</p>
+            <p><strong>Alcance de la luz:</strong> 54 kilómetros</p>
+            <p><strong>Material de construcción:</strong> Piedra y ladrillo</p>
+            <p><strong>Diseño:</strong> Clásico, con una torre cilíndrica y una linterna en la parte superior.</p>
+        </div>
+        <img src="images2/aso1.jpg" alt="">
+        <div class="section">
+            <h3>Faro de Vlissingen</h3>
+            <p><strong>Nombre completo:</strong> Vuurtoren Vlissingen</p>
+            <p><strong>Ubicación:</strong> Situado en la punta occidental de la isla de Walcheren, en la ciudad de Vlissingen, provincia de Zelanda, Países Bajos.</p>
+            <p><strong>Altura:</strong> Aproximadamente 27 metros.</p>
+            <p><strong>Alcance de la luz:</strong> Su luz es visible a una distancia considerable, guiando a los barcos que se acercan al puerto de Vlissingen.</p>
+            <p><strong>Diseño:</strong> El faro actual es una réplica de la estructura original, construida en 1990. Tiene una forma cilíndrica y una linterna en la parte superior.</p>
+            <p><strong>Material de construcción:</strong> Principalmente ladrillo y piedra.</p>
+            <p><strong>Función:</strong> Su principal función es servir como guía para los barcos que navegan por el estuario del Escalda, uno de los más importantes de Europa.</p>
+        </div>
+        <img src="images2/aso2.jpg" alt="">
+        <div class="section">
+            <h3>Faro de Noordwijk</h3>
+            <p><strong>Nombre:</strong> Vuurtoren Noordwijk</p>
+            <p><strong>Ubicación:</strong> Noordwijk aan Zee, una popular localidad costera en la provincia de Holanda Meridional.</p>
+            <p><strong>Altura:</strong> Aproximadamente 30 metros.</p>
+            <p><strong>Función:</strong> Guiar a los barcos que navegan por la costa, especialmente durante la noche y en condiciones climáticas adversas.</p>
+            <p><strong>Diseño:</strong> Clásico, con una torre cilíndrica y una linterna en la parte superior. Su estructura es sólida y resistente para soportar las condiciones climáticas costeras.</p>
+        </div>
+        <img src="images2/aso3.jpg" alt="">
+        <div class="section">
+            <h3>Faro de Marken</h3>
+            <p><strong>Nombre:</strong> Paard van Marken (Caballo de Marken)</p>
+            <p><strong>Ubicación:</strong> Extremo oriental de la isla de Marken, a unos 26 kilómetros al noroeste de Ámsterdam.</p>
+            <p><strong>Historia:</strong> Construido en 1839 y diseñado por J. Valk. Originalmente, la torre era cuadrada, pero fue reconstruida en su forma actual, cilíndrica, años más tarde.</p>
+            <p><strong>Altura:</strong> Aproximadamente 16 metros.</p>
+            <p><strong>Diseño:</strong> Torre cilíndrica con una linterna en la parte superior.</p>
+            <p><strong>Función:</strong> Guiar a los barcos que navegan por el mar de Marken.</p>
+            <p><strong>Material:</strong> Principalmente ladrillo y piedra.</p>
+            <p><strong>Habitado:</strong> A pesar de ser un faro, el edificio ha sido utilizado como vivienda en el pasado y en la actualidad.</p>
+        </div>
+        <img src="images2/aso4.jpg" alt="">
+    <div class="container">
+    <div class="section">
+        <h2>Otros Faros Importantes</h2>
+        <div class="section">
+            <h3>Faro de Egmond aan Zee</h3>
+            <p><strong>Nombre:</strong> Vuurtoren Egmond aan Zee</p>
+            <p><strong>Ubicación:</strong> Localidad costera de Egmond aan Zee, en la provincia de Noord-Holland, Países Bajos.</p>
+            <p><strong>Altura:</strong> Aproximadamente 30 metros.</p>
+            <p><strong>Diseño:</strong> Clásico, con una torre cilíndrica y una linterna en la parte superior. Su estructura es sólida y resistente para soportar las condiciones climáticas costeras.</p>
+            <p><strong>Función:</strong> Guiar a los barcos que navegan por la costa, especialmente durante la noche y en condiciones climáticas adversas.</p>
+        </div>
+        <img src="images2/aso5.jpg" alt="">
+        <div class="section">
+            <h3>Faro de Cerro Azul</h3>
+            <p><strong>Ubicación:</strong> Cerro Azul, cerca de la localidad de Cerro Azul en la provincia de Cañete, región Lima, Perú.</p>
+            <p><strong>Historia:</strong> Construido en la segunda mitad del siglo XX para servir como guía para los barcos que navegan por la costa central del Perú.</p>
+            <p><strong>Altura:</strong> 10 metros.</p>
+            <p><strong>Construcción:</strong> Cemento y metal, con una estructura simple pero funcional.</p>
+            <p><strong>Función:</strong> Orientar y guiar a los navegantes de barcos y embarcaciones en la costa peruana, especialmente durante la noche y en condiciones de niebla.</p>
+        </div>
+        <img src="images2/aso6.jpg" alt="">
+    </div>
+<div class="container">
+    <div class="section">
+        <h2>Tipos de Faros</h2>
+        <ul>
+            <li>Faro de Torre</li>
+            <li>Faro de Costero automático</li>
+            <li>Faro de Baliza</li>
+            <li>Faro de luz estroboscópica</li>
+            <li>Faro Flotante</li>
+            <li>Faro de Poste</li>
+            <li>Faro de Isla</li>
+            <li>Faro histórico o patrimonial</li>
+            <li>Faro de Costa</li>
+            <li>Faro de vidrio</li>
+            <li>Faro de Radar</li>
+            <li>Faro de altura o de acantilado</li>
+            <li>Faro de luz múltiple o faro de señalización múltiple</li>
+        </ul>
+        <h2>Recomendaciones para Faros en Perú</h2>
+        <p>La recomendación para la construcción de faros en Perú dependerá de las características geográficas, climáticas y de tráfico marítimo de cada zona. La diversidad de la costa peruana permite la construcción de diferentes tipos de faros, desde torres convencionales para zonas con alto tráfico, hasta faros automáticos o flotantes en regiones más remotas o difíciles de acceder. Adaptarse a las condiciones específicas de cada área garantizaría una infraestructura marítima segura y eficiente.</p>
+    </div>
+</div>
+</body>
+</html>

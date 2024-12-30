@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcelas Agro alrededor de Cerro Azul</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-color: #005f73;
+        }
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0327359c;
+            padding: 12px 0;
+        }
+        .navbar img {
+            height: 50px;
+            margin-left: 20px;
+            margin-bottom: 15px;
+            background-color: #ffffff1c;
+        }
+        .navbar-links {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 22px;
+            margin-right: 18px;
+            position: relative;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #0a9396;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: white;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 8px 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #005f73;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .header {
+            background: url('images/playa.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h2 {
+            color: #005f73;
+        }
+        .beach-comparison {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .beach {
+            flex: 1 1 300px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: #0a9396;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .beach img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .beach h3 {
+            color: #fff;
+        }
+        .beach p, .beach h4 {
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="images/undc.png" alt="Logo">
+        <div class="navbar-links">
+            <a href="index.html">Inicio</a>
+            <div class="dropdown">
+                <a href="infof.html" class="dropbtn">Información</a>
+                <div class="dropdown-content">
+                    <a href="comparacion.html">Comparación</a>
+                    <a href="vientos.html">Tipos de Viento</a>
+                    <a href="instituciones.html">Instituciones</a>
+                    <a href="parcelas.html">Parcelas</a>
+                    <a href="invactividadesf.html">Inventario de Actividades Festivas</a>
+                    <a href="requi.html">Requisitos para crear Personería Jurídica</a>
+                    <a href="ligas.html">Ligas Deportivas</a>
+                    <a href="geogra.html">Geografía Económica</a>
+                    <a href="inventario.html">Inventario de Colegios y Distritos Alrededores</a>
+                    <a href="litoral.html">Litoral Peruano</a>
+                    <a href="tejidos.html">Tejidos Tradicionales y Artesanía</a>
+                    <a href="patente.html">Patente del Logo</a>
+                    <a href="transporte.html">Inventariado del Transporte</a>
+                    <a href="competen.html">Competencia Barcos de Vela</a>
+                    <a href="senalizacion.html">Señalización de Peligro</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="farinter.html" class="dropbtn">Faro</a>
+                <div class="dropdown-content">
+                    <a href="faros.html">Modelos</a>
+                    <a href="serviciosb.html">Servicios Básicos</a>
+                    <a href="asociacion.html">Asociación Mundial</a>
+                    <a href="museos.html">Modelos de Museo</a>
+                    <a href="propuestas.html">Propuestas para mejorar la subida</a>
+                    <a href="origenes.html">Orígen y tipos de faro en norteamérica</a>
+                </div>
+            </div>
+            <a href="autores.html">Autores</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Parcelas Agro alrededor de Cerro Azul</h1>
+    </div>
+    <div class="container">
+        <h2>Producción alimentaria</h2>
+        <div class="beach">
+            <p>Las tierras fértiles de Cerro Azul permiten la producción de frutas (uvas, palta, naranjas, mandarinas) y verduras (espárragos, papa, camote), así como la ganadería de vacunos.</p>
+        </div>
+        <h2>Desarrollo económico local</h2>
+        <div class="beach">
+            <p>La agricultura y ganadería generan empleo, dinamizando la economía de Cerro Azul y sus alrededores.</p>
+        </div>
+        <h2>Sostenibilidad ambiental</h2>
+        <div class="beach">
+            <p>Las prácticas agrícolas sostenibles promueven la conservación del suelo y la biodiversidad. El abono natural de los animales fertiliza las tierras.</p>
+        </div>
+        <h2>Conclusión</h2>
+        <div class="beach">
+            <p>Es crucial preservar los terrenos fértiles y valorar el trabajo de los agricultores para asegurar el desarrollo agrícola y el abastecimiento alimentario.</p>
+        </div>
+    </div>
+</body>
+</html>

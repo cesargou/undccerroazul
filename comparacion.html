@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparación de Playas - Cerro Azul</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+            background-color: #005f73;
+        }
+        .navbar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0327359c;
+            padding: 12px 0;
+        }
+        .navbar img {
+            height: 50px;
+            margin-left: 20px;
+            margin-bottom: 15px;
+            background-color: #ffffff1c;
+        }
+        .navbar-links {
+            display: flex;
+            align-items: center;
+        }
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 22px;
+            margin-right: 18px;
+            position: relative;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #0a9396;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: white;
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 8px 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #005f73;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .header {
+            background: url('images/playa.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h2 {
+            color: #005f73;
+        }
+        .beach-comparison {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .beach {
+            flex: 1 1 300px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: #0a9396;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .beach img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .beach h3 {
+            color: #fff;
+        }
+        .beach p, .beach h4 {
+            color: #f0f0f0;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="images/undc.png" alt="Logo">
+        <div class="navbar-links">
+            <a href="index.html">Inicio</a>
+            <div class="dropdown">
+                <a href="infof.html" class="dropbtn">Información</a>
+                <div class="dropdown-content">
+                    <a href="comparacion.html">Comparación</a>
+                    <a href="vientos.html">Tipos de Viento</a>
+                    <a href="instituciones.html">Instituciones</a>
+                    <a href="parcelas.html">Parcelas</a>
+                    <a href="invactividadesf.html">Inventario de Actividades Festivas</a>
+                    <a href="requi.html">Requisitos para crear Personería Jurídica</a>
+                    <a href="ligas.html">Ligas Deportivas</a>
+                    <a href="geogra.html">Geografía Económica</a>
+                    <a href="inventario.html">Inventario de Colegios y Distritos Alrededores</a>
+                    <a href="litoral.html">Litoral Peruano</a>
+                    <a href="tejidos.html">Tejidos Tradicionales y Artesanía</a>
+                    <a href="patente.html">Patente del Logo</a>
+                    <a href="transporte.html">Inventariado del Transporte</a>
+                    <a href="competen.html">Competencia Barcos de Vela</a>
+                    <a href="senalizacion.html">Señalización de Peligro</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="farinter.html" class="dropbtn">Faro</a>
+                <div class="dropdown-content">
+                    <a href="faros.html">Modelos</a>
+                    <a href="serviciosb.html">Servicios Básicos</a>
+                    <a href="asociacion.html">Asociación Mundial</a>
+                    <a href="museos.html">Modelos de Museo</a>
+                    <a href="propuestas.html">Propuestas para mejorar la subida</a>
+                    <a href="origenes.html">Orígen y tipos de faro en norteamérica</a>
+                </div>
+            </div>
+            <a href="autores.html">Autores</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Comparación de Playas - Cerro Azul</h1>
+    </div>
+    <div class="container">
+        <h2>Playas del Perú</h2>
+        <div class="beach-comparison">
+            <div class="beach">
+                <h3>Cerro Azul</h3>
+                <img src="images/cerroazul.jpg" alt="Cerro Azul">
+                <p>Cerro Azul es conocido por su tranquilidad y belleza natural, ideal para un escape relajante, ubicada en la región de Lima, al sur de la capital. Es famosa por su encanto tradicional, su muelle histórico y sus olas ideales para el surf.</p>
+            </div>
+            <div class="beach">
+                <h3>Máncora (Piura)</h3>
+                <img src="images/mancora.jpg" alt="Máncora (Piura)">
+                <p>Máncora es famosa por su vida nocturna vibrante y su ambiente de fiesta. 
+                    <h4>- Paisaje:</h4> <p>Cerro Azul tiene un ambiente más tradicional y rústico, con un muelle icónico y vistas tranquilas. Máncora, por otro lado, ofrece un clima tropical, palmeras y playas de arena blanca más extensas.</p>
+                    <h4>- Actividades:</h4> <p>Ambos lugares son ideales para surfear, pero Máncora también es popular para el kitesurf y tiene una vida nocturna vibrante, mientras que Cerro Azul es más tranquilo.</p>
+<h4>- Turismo:</h4> <p>Máncora es un destino turístico internacional más desarrollado, con hoteles de lujo y restaurantes modernos, mientras que Cerro Azul conserva un aire más local y tradicional.</p>
+                </p>
+            </div>
+            <div class="beach">
+                <h3>Punta Sal (Tumbes)</h3>
+                <img src="images/puntasal.jpg" alt="Punta Sal (Tumbes)">
+                <p>Paracas ofrece paisajes desérticos únicos y es popular para los deportes acuáticos.</p>
+                <h4>- Clima:</h4> <p>Punta Sal tiene un clima más cálido y soleado durante todo el año, mientras que Cerro Azul puede ser más frío y húmedo durante el invierno.</p>
+                <h4>- Ambiente:</h4> <p>Punta Sal es ideal para relajarse, con aguas más cálidas y calmadas. Cerro Azul es más dinámico, especialmente para quienes buscan surfear o explorar su historia.</p>
+            </div>
+        </div>
+        <h2>Playas Internacionales</h2>
+        <div class="beach-comparison">
+            <div class="beach">
+                <h3>Cancún, México</h3>
+                <img src="images/cancun.jpeg" alt="Cancún">
+                <p>Cancún es conocido por sus resorts de lujo y playas de arena blanca.</p>
+                <h4>- Paisaje:</h4> <p>Cerro Azul tiene un entorno más rústico y sereno, con su emblemático muelle y vistas relajantes, mientras que Cancún se destaca por su lujo, arenas blancas infinitas y el impactante contraste con las aguas turquesas.</p>
+                <h4>- Ambiente:</h4> <p>Cancún es vibrante y cosmopolita, con una vida turística activa que combina lujo y modernidad, mientras que Cerro Azul es apacible y tradicional, ofreciendo una experiencia más auténtica y local.</p>
+                <h4>- Clima:</h4> <p>Cancún disfruta de un clima tropical cálido y húmedo, con temperaturas elevadas casi todo el año. En contraste, Cerro Azul tiene un clima más templado y seco, con brisas frescas que acompañan sus días soleados.</p>
+            </div>
+            <div class="beach">
+                <h3>Waikiki Beach (Hawái, EE. UU.)</h3>
+                <img src="images/waikiki.jpg" alt="Waikiki Beach (Hawái, EE. UU.)">
+                <p>Waikiki Beach combina surf, aguas cálidas y un toque urbano.</p>
+                <h4>- Cultura:</h4> <p>Waikiki Beach está impregnada de la cultura hawaiana, desde sus danzas tradicionales hasta sus celebraciones en la playa. Por su parte, Cerro Azul refleja la identidad peruana a través de su gastronomía marina y su legado pesquero.</p>
+                <h4>- Paisaje:</h4> <p>Mientras Waikiki Beach ofrece un contraste entre rascacielos modernos y playas paradisíacas, Cerro Azul presenta un horizonte más sereno, marcado por su muelle emblemático y un entorno natural sin artificios.</p>
+            </div>
+            <div class="beach">
+                <h3>El Tunco (El Salvador)</h3>
+                <img src="images/tunco.jpg" alt="El Tunco (El Salvador)">
+                <p>El Tunco atrae con olas constantes y una vibra bohemia.</p>
+                <h4>- Actividades:</h4> <p>El Tunco es un destino emblemático para los surfistas avanzados y para quienes buscan explorar su vida nocturna bohemia. Cerro Azul, aunque también ideal para el surf, se inclina hacia actividades más relajadas como paseos en el muelle o disfrutar de la pesca local.</p>
+                <h4>- Ambiente:</h4> <p>El Tunco tiene una atmósfera juvenil y energética, con viajeros de todo el mundo buscando aventuras. En comparación, Cerro Azul ofrece un espacio más íntimo y familiar, perfecto para quienes buscan tranquilidad.</p>
+            </div>
+        </div>
+    </div>
